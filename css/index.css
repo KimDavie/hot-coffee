@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+.header__content {
+  display: flex;
+}
+.header__logo {
+  font-size: 30px;
+}
+.header__item {
+  font-style: 16px;
+}
+.header__list {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */
