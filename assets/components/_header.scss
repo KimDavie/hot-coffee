@@ -1,21 +1,22 @@
 .header {
+    
+
     &__content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     &__logo {
-        @include font(700,20px,#000)
+        @include font("Inter", 700, 20px, $black);
     }
     &__link {
-        @include font(400,16px,$black);
-        @include position(center,center)
+        @include font("Inter", 400, 16px, $black);
     }
     &__list {
         display: flex;
     }
     &__label {
         display: flex;
-        align-items: center;  
+        align-items: center;
     }
     &__item {
         margin-left: 30px;
@@ -29,4 +30,11 @@
         }
     }
 
+    .container{
+        display: flex;
+        justify-content: center;
+        
+    }
+
 }
+

@@ -1,0 +1,47 @@
+.hero {
+    background: #FBFBFB;
+
+    &__title {
+        @include hero-title ("Inter", 700, 60px, 73px, #000000);
+        width: 354px;
+
+
+    }
+
+    &__suptitle {
+        @include hero-title ("Inter", 400, 30px, 36px, #4A5568);
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around
+    }
+
+
+    &__info {
+        flex-direction: column;
+        margin-top: 131px;
+        margin-left: 127px;
+    }
+
+
+
+    &__big-img {
+        margin-top: 70px;
+        margin-left: 102px;
+    }
+
+    &__img {
+        margin-top: -250px;
+        margin-left: 190px;
+        margin-bottom: 15px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+}

@@ -1,0 +1,66 @@
+.big {
+
+    &__title {
+        @include big("Inter", 700, 30px, 36px, #2D3748)
+    }
+
+    &__description {
+        @include big("Inter", 400, 14px, 17px, #718096);
+        width: 404px;
+        margin-top: 27px;
+    }
+
+    &__date {
+        @include big("Inter", 400, 12px, 15px, #718096);
+
+    }
+
+    &__read {
+        @include big("Inter", 700, 12px, 15px, #2D3748);
+        width: 64px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+
+        
+    }
+
+    &__text {
+        margin-top: 41px;
+        margin-left: 55px;
+    }
+
+    &__content {
+        background: #FFFFFF;
+        border: 1px solid #E2E2E2;
+        box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+        border-radius: 5px;
+        width: 966px;
+        height: 243px;
+        margin-left: 97px;
+        margin-top: 39px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-right: 97px;
+    }
+    
+}

@@ -1,0 +1,39 @@
+.actual {
+    background: #F7FAFC;
+    width: 965px;
+    height: 500px;
+    margin-left: 51vh;;
+    &__title {
+        @include actual("Inter", 700, 40px, 48px, #000000);
+        width: 308px;
+        margin-left: 63px;
+        margin-top: 98px;
+    }
+    &__description {
+        @include actual ("Inter", 400, 16px, 19px, #718096);
+        width: 311px;
+        margin-left: 63px;
+        margin-top: 24px;
+    }
+    &__date {
+        @include actual ("Inter", 400, 16px, 19px, #4A5568);
+        margin-top: 31px;
+        margin-left: 63px;
+    }
+    &__read {
+        @include actual ("Inter", 700, 16px, 19px, #000000);
+        margin-top: 31px;
+        margin-left: 171px;
+    }
+
+    &__bottom {
+        display: flex;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}

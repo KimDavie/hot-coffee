@@ -1,0 +1,29 @@
+.footer {
+    border: 1px solid #E8E8E8;
+    margin-top: 52px;
+    &__description {
+    @include footer ("Inter", 700, 16px, 19px, #000000)
+    }
+    
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 29px;
+        margin-bottom: 31px;
+        margin-left: 89px;
+        
+    }
+
+    &__img {
+        display: flex;
+    }
+
+    &__img-twit {
+        margin-left: 35px;
+    }
+
+    &__img-linked {
+        margin-left: 35px;
+        margin-right: 108px;
+    }
+}
